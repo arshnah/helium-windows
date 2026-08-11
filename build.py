@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Copyright 2025 The Helium Authors
+# Copyright 2025 The larpbrowser Authors
+# Forked from Helium (github.com/imputnet/helium), Copyright The Helium Authors.
 # You can use, redistribute, and/or modify this source code under
 # the terms of the GPL-3.0 license that can be found in the LICENSE file.
 
@@ -9,7 +10,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 """
-Helium build script for Windows
+larpbrowser build script for Windows (a fork of Helium)
 """
 
 import sys

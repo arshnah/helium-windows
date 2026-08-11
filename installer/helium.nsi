@@ -1,8 +1,9 @@
-; Copyright 2025 The Helium Authors
+; Copyright 2025 The larpbrowser Authors
+; Forked from Helium (github.com/imputnet/helium), Copyright The Helium Authors.
 ; You can use, redistribute, and/or modify this source code under
 ; the terms of the GPL-3.0 license that can be found in the LICENSE file.
 ;
-; NSIS installer script for Helium browser.
+; NSIS installer script for larpbrowser (a fork of Helium).
 ; Wraps setup.exe + helium.7z with a GUI.
 ;
 ; Required defines (passed via makensis -D):
@@ -22,10 +23,10 @@
 !include "FileFunc.nsh"
 
 ; --- Product Information ---
-!define PRODUCT_NAME "Helium"
-!define PRODUCT_PUBLISHER "imput"
-!define PRODUCT_COMPANY_PATH "imput"
-!define PRODUCT_GUID "{FB68A146-637A-48C2-A0C4-1565DE45FEBD}"
+!define PRODUCT_NAME "larpbrowser"
+!define PRODUCT_PUBLISHER "arshnah"
+!define PRODUCT_COMPANY_PATH "arshnah"
+!define PRODUCT_GUID "{452086CD-44ED-492A-A307-6F5D791EA247}"
 
 ; --- Installer Configuration ---
 Name "${PRODUCT_NAME} ${VERSION}"
